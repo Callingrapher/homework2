@@ -4,31 +4,101 @@
 <head>
 
   <meta charset="UTF-8">
-
   <title>M. Wm. Eggleston</title>
 
   <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
+  <!--Header-->
+  <h1>Full Stack Web Development</h1>
 </head>
-<body>
-    <!--Navigation bar/Header-->
-    <nav class="header">
-        <h1>Full<span class="seo">Stack</span>Development</h1>
-        <div>
-            <a href="#portfolio">Portfolio</a>
-                
-            <a href="#index">Home</a>
-        </div>
-    </nav>
 
-</body>  
+<body>
+
+    <nav class="navbar-expand-lg navbar-light"></nav>
+    <a class="navbar-brand" href="#">Matthew Wm. Eggleston</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+</head>
+
+<body><header>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Callingrapher.github.io">Matthew Wm. Eggleston</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+        </button>
+  
+     <section class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+     </section>
+    </nav>
+</header>
+
+<main class="container">
+    <!-- Contact me form -->
+    <h1>Contact me</h1>
+        <section class="row">
+            <section class="col-md-12">
+                <section class="well well-sm">
+                    <form>
+                      <section class="row">
+                        <section class="col-md-12">
+                                <label for="name">Name</label>
+                                  <input type="text" class="form-control" id="name" placeholder="Enter name" required="required">
+                                <label for="email">Email Address</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Enter email" required="required">
+                                <label for="subject">Subject</label>
+                                  <select id="subject" name="subject" class="form-control" required="required">
+                                    <option value="" selected="">Choose One:</option>
+                                    <option value="service">Hi, how are you?</option>
+                                  </select>
+                                <label for="message">Message</label>
+                                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                        </section>
+                        <section class="col-md-12">
+                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                Send Message</button>
+                        </section>
+                      </section>
+                    </form>
+                </section>
+            </section>
+        </section>
+</main>
+
+</body>
 
     <!--Footer with copyright info-->
     <footer class="footer">
-        <h2>Made with blood, sweat, and tears by M. Wm. Eggleston</h2>
+        <h2>Made with blood, sweat, and tears</h2>
         <p>
-            &copy; 2020 Matthew Wm. Eggleston, all rights reserved.
+            &copy; 2020, all rights reserved.
         </p>
     </footer>
 

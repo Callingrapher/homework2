@@ -1,10 +1,25 @@
-/*I'll put some CSS here in a little bit
+DOCTYPE CSS
 
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
+header {
+  background: #d21034;
+}
+
+h1 {
+  /* Box-model */
+  padding: 20px 0;
+
+  /* Positioning */
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+
+  /* Typography */
+  color: #eee;
+  text-align: center;
+
+  /* Visual */
+  background: #333;
+}
 
 body {
     /* Box-model */
@@ -22,28 +37,16 @@ body {
     /* Visual */
     background: #efeee7;
   }
-  
-  header {
-    background: #d21034;
+
+  img {
+    padding: 10px;
   }
-  
-  h1 {
-    /* Box-model */
-    padding: 20px 0;
-  
-    /* Positioning */
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-  
-    /* Typography */
-    color: #eee;
-    text-align: center;
-  
-    /* Visual */
-    background: #333;
+
+  p {
+    padding: 20px 0px;
+
   }
-  
+
   h2 {
     font-size: 24px;
   }
@@ -52,6 +55,11 @@ body {
     color: #d21034;
   }
   
+footer {
+  bottom: auto; 
+  padding-top: 50px;
+}
+
   .container {
     /* Box-model */
     width: 1024px;
@@ -67,7 +75,7 @@ body {
   }
   
   #main-bio {
-    width: 70%;
+    width: 90%;
   }
   
   #contact-info {
