@@ -1,4 +1,9 @@
-DOCTYPE CSS
+/* DOCTYPE CSS */
+
+html {
+
+}
+
 
 header {
   background: #d21034;
@@ -56,39 +61,50 @@ body {
   }
   
 footer {
-  bottom: auto; 
-  padding-top: 50px;
+  align-content: center;
+  float: bottom; 
+  /* padding-top: 50px; */
+  position: fixed;
+  bottom: 0;
+  text-align: center;
 }
 
-  .container {
-    /* Box-model */
-    width: 1024px;
+.container {
+  /* Box-model */
+  width: 1024px;
   
-    /* Positioning */
-    margin: 0 auto;
-  }
+  /* Positioning */
+  margin: 0 auto;
+}
   
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
-  }
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
   
-  #main-bio {
-    width: 90%;
-  }
+#main-bio {
+  width: 90%;
+}
   
-  #contact-info {
-    width: 30%;
-  }
+#contact-info {
+  width: 30%;
+}
   
-  #bio-image {
-    /* Box-model */
-    width: 350px;
-    height: 350px;
+#bio-image {
+  /* Box-model */
+  width: 350px;
+  height: 350px;
   
-    /* Positioning */
+  /* Positioning */
   
-    margin-right: 20px;
-  }
+  margin-right: 20px;
+}
+
+.graphic {
+  width: 200px;
+  height:auto;
+  margin: 5px;
+  border: solid grey 2px;
+}
   
